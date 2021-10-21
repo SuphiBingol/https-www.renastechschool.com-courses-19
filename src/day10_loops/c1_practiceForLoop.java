@@ -1,9 +1,33 @@
 package day10_loops;
 
-public class c1_assignment {
+public class c1_practiceForLoop {
 
     public static void main(String[] args) {
 
+
+
+        String word="Serdal";
+        String reverseWord="";
+        int lastIndex=word.length()-1;
+
+        for(int i=lastIndex; i>=0; i--) {
+
+            reverseWord+=word.charAt(i); }
+
+        System.out.println(reverseWord);
+
+        for(int i=1; i<=5; i++) {
+
+            System.out.println("Suphi");
+
+
+            if (i == 3) {
+                System.out.println("Mahmut");
+                break;
+            }
+
+            System.out.println("Serdal");
+        }
 
         //Question 1
 //Write a program to print numbers from 1 to 10.
